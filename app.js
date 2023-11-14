@@ -6,7 +6,7 @@ require("./Models/UserModel");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("nodemailer");
 
-const JWT_SECRET = "asddbukygug5258556284dwqfnuwq390e0-???>''/";
+const JWT_SECRET = "$2a$10$50HwsL6onlMW3bINAVbmherRxYbnWcdhJvJOH.sbAE9yfnEQJXyVW-???>''/";
 
 const app = express();
 app.use(express.json());
