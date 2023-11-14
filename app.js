@@ -156,7 +156,7 @@ app.listen(PORT, (err) => {
 });
 
 mongoose
-  .connect("mongodb://localhost:27017")
+  .connect("mongodb+srv://hubertmichaelseelan:oZYACDmZlKoaNTxN@cluster0.ez66ddl.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log("Database Connected");
   })
